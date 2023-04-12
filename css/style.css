@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+	font-family: sans-serif;
+	overflow-x: auto;
+}
+
+body > * {
+	white-space: nowrap;
+}
