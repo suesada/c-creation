@@ -19,7 +19,7 @@ class htmlElement {
 
 class Random {
 	int(min, max) {
-		let result = min + Math.floor(Math.random() * (max - min));
+		let result = min + Math.floor(Math.random() * (max - min + 1));
 		return result;
 	}
 
